@@ -9,6 +9,8 @@
   "scripts": {
     "bower": "bower",
     "dev": "nodemon index.js",
+    "predeploy": "npm install",
+    "deploy": "firebase deploy",
     "postinstall": "npm run bower install && npm run precompile",
     "start": "node index.js",
     "precompile": "ems-precompile index.js",
