@@ -15,7 +15,9 @@
   "verbose": false,
   "env": {
     "NODE_ENV": "development",
-    "DEBUG": "*"
+    "DEBUG": "express-mincer-spa*",
+    "LIVERELOAD_IP": "firebase-hosting-with-ems-starter-naxmefy.c9users.io",
+    "LIVERELOAD_PORT": "8081"
   },
   "ext": "js json"
 }
