@@ -1,0 +1,32 @@
+{
+  "name": "firebase-hosting-with-ems",
+  "version": "0.0.0",
+  "description": "firebase-hosting-with-ems",
+  "private": true,
+  "author": "MRW Neundorf [naxmefy] <m.neundorf@live.de>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "bower": "bower",
+    "postinstall": "npm run bower install && npm run precompile",
+    "start": "node index.js",
+    "precompile": "ems-precompile index.js",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "bower": "^1.7.7",
+    "coffee-script": "1.10.0",
+    "ejs": "2.4.1",
+    "express-mincer-spa": "^0.2.2",
+    "jade": "1.11.0",
+    "jst": "0.0.13",
+    "less": "1.7.5",
+    "stylus": "0.54.2"
+  },
+  "devDependencies": {
+    "firebase-tools": "3.0.1",
+    "mocha": "2.5.3",
+    "should": "8.4.0",
+    "supertest": "1.2.0"
+  }
+}

@@ -1,0 +1,13 @@
+box: node:4.4.5
+
+build:
+  steps:
+    - npm-install
+    - npm-test
+    
+deploy:
+  steps:
+    - script:
+      name: firebase deploy
+      code:
+        firebase deploy --token "$FIREBASE_TOKEN"
