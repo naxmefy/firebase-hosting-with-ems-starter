@@ -4,7 +4,9 @@ var app = module.exports = expressMincerSpa(__dirname, {
         files: [
             'app.css',
             'app.js'
-        ]
+        ],
+        
+        views: true // to precompile or index view too
     }
 });
 

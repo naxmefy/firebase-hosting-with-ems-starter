@@ -32,3 +32,10 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Editors
+.idea
+.c9
+
+# Public views
+public/index.html
