@@ -10,4 +10,5 @@ deploy:
     - script:
       name: firebase deploy
       code:
-        npm run firebase -- deploy --non-interactive --message $WERCKER_GIT_COMMIT
+        npm run deploy -- --non-interactive --message $WERCKER_GIT_COMMIT
+        
