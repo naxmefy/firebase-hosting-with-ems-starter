@@ -1,6 +1,14 @@
 {
-    "name": "firebase-hosting-with-ems",
-    "version": "0.0.0",
-    "description": "firebase-hosting-with-ems",
-    "private": true
+  "name": "firebase-hosting-with-ems",
+  "version": "0.0.0",
+  "description": "firebase-hosting-with-ems",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap": "3.3.6",
+    "angular": "1.5.6",
+    "angularfire": "1.2.0",
+    "angular-ui-router": "0.3.0",
+    "firebase": "3.0.3"
+  }
 }
