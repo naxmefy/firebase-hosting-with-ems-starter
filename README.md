@@ -41,6 +41,5 @@ Doucmentation and more can be found [here](https://www.firebase.com/docs/hosting
 
 ## Change 404 Page
 
-Just update 404.html inside public folder or create
-own view file for (some infos [here](https://github.com/naxmefy/express-mincer-spa/issues/2)).
+Just update 404.jade inside views folder.
 
