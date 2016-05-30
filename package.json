@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "bower": "bower",
+    "dev": "nodemon index.js",
     "postinstall": "npm run bower install && npm run precompile",
     "start": "node index.js",
     "precompile": "ems-precompile index.js",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "firebase-tools": "3.0.1",
     "mocha": "2.5.3",
+    "nodemon": "1.9.2",
     "should": "8.4.0",
     "supertest": "1.2.0"
   }

@@ -1,0 +1,21 @@
+{
+  "restartable": "rs",
+  "watch": [
+    "index.js"
+  ],
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "assets",
+    "public",
+    "views",
+    "test"
+  ],
+  "quite": true,
+  "verbose": false,
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "*"
+  },
+  "ext": "js json"
+}
