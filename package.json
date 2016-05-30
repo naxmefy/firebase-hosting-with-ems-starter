@@ -11,7 +11,8 @@
     "postinstall": "npm run bower install && npm run precompile",
     "start": "node index.js",
     "precompile": "ems-precompile index.js",
-    "test": "mocha test"
+    "test": "mocha test",
+    "firebase": "firebase"
   },
   "dependencies": {
     "bower": "^1.7.7",
